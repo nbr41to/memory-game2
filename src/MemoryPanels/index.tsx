@@ -94,7 +94,7 @@ export const MemoryPanels: FC<Props> = ({
           </div>
         ))}
       </div>
-      <div className='absolute top-[120px] h-[120px] w-[360px] border bg-gray-800/50'>
+      <div className='absolute top-[120px] h-[120px] w-[360px] border bg-gray-600'>
         <div className='flex'>
           <div className='h-[120px] w-[120px] border' />
           <div className='h-[120px] w-[120px] border' />

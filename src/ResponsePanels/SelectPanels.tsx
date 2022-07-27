@@ -9,15 +9,15 @@ type Props = {
 export const SelectPanels: FC<Props> = ({ panels, selectHandler }) => {
   return (
     <div className='flex h-[360px] w-[360px] flex-wrap justify-end overflow-hidden'>
-      {panels.map((chara, index) => (
+      {panels.map((character, index) => (
         <button
           className={clsx(
             'flex h-[120px] w-[120px] cursor-pointer items-center justify-center border text-6xl',
           )}
           key={index}
-          onClick={() => selectHandler(chara)}
+          onClick={() => selectHandler(character)}
         >
-          {chara}
+          {character}
         </button>
       ))}
     </div>

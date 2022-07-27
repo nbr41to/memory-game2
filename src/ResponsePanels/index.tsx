@@ -9,10 +9,7 @@ type Props = {
   finishHandler: () => void;
 };
 
-/* 〇〇から始まる終わる */
-
 export const ResponsePanels: FC<Props> = ({ finishHandler }) => {
-  const [isFinished, setIsFinished] = useState(false);
   const [selected, setSelected] = useState('');
   const [viewPanels, setViewPanels] = useState<typeof characters[number][]>([]);
 
