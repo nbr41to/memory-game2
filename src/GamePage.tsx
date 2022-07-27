@@ -41,13 +41,13 @@ export const GamePage: FC<GamePageProps> = () => {
     });
   };
 
-  // useEffect(() => {
-  //   const taskId = Math.floor(Math.random() * 2);
-  //   setGameState({
-  //     ...gameState,
-  //     taskId: taskId.toString(),
-  //   });
-  // }, [gameState.Answered]);
+  useEffect(() => {
+    const taskId = Math.floor(Math.random() * 2);
+    setGameState({
+      ...gameState,
+      taskId: taskId.toString(),
+    });
+  }, [gameState.Answered]);
 
   return (
     <div>
