@@ -24,7 +24,7 @@ export const OrderPanels: FC<Props> = ({ finishHandler }) => {
   }, [current]);
 
   useEffect(() => {
-    if (current === 17) {
+    if (current === 10) {
       finishHandler();
     }
   }, [current, finishHandler]);
