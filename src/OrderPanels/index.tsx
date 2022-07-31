@@ -47,7 +47,7 @@ export const OrderPanels: FC<Props> = ({ finishHandler }) => {
           </button>
         ))}
       </div>
-      <button onClick={() => setCurrent(17)}>finish</button>
+      <button onClick={() => setCurrent(10)}>finish</button>
     </div>
   );
 };
